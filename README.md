@@ -38,6 +38,8 @@ Examples/
 
 
 
+
+
 \## 🔧 Functions Built
 
 \- `Rename-LogFiles`: Renames all `.log` files in a directory with a timestamp suffix.
@@ -57,44 +59,6 @@ Rename-LogFiles -Path "C:\\Logs"
 Backup-ConfigFiles -Source "C:\\Config" -Destination "D:\\Backup"
 
 
-
-
-
-6\. Click \*\*Save\*\*
-
-
-
----
-
-
-
-\### 🔹 Option 2: Use VS Code (If You Have It)
-
-If you’re using \*\*VS Code\*\*:
-
-1\. Open the folder
-
-2\. Right-click → New File → name it `README.md`
-
-3\. Paste the same content above
-
-4\. Save it
-
-
-
----
-
-
-
-\### ✅ After That, Push It to GitHub
-
-```bash
-
-git add README.md
-
-git commit -m "docs: added README with module structure and usage"
-
-git push
 
 
 
